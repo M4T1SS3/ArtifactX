@@ -6,6 +6,7 @@ from artifacts.artifact_pipeline import ArtifactPipeline
 from artifacts.general.beam_hardening_artifact import BeamHardeningArtifact
 from artifacts.general.metal_artifact import MetalArtifact
 from artifacts.general.motion_artifcat import MotionArtifact
+from artifacts.general.partial_volume_artifact import PartialVolumeArtifact
 from artifacts.general.ring_artifact import RingArtifact
 from disortion.barrel_disortion import BarrelDistortion
 from disortion.warping_distortion import WarpingDistortion
@@ -30,8 +31,8 @@ def main():
     pipeline = ArtifactPipeline(image)
 
     # Add effects to the pipeline (artifacts and filters are treated the same)
-    pipeline.add_effect(BeamHardeningArtifact(severity=1.0, streak_intensity=0.5, cupping_intensity=0.3))
-
+    # pipeline.add_effect(BeamHardeningArtifact(severity=1.0, streak_intensity=0.5, cupping_intensity=0.3))
+    pipeline.add_effect(PartialVolumeArtifact(severity=0.7, blur_intensity=2.0))
     # Get the final image after applying all effects
 
     # Get the final image after applying all effects
