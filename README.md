@@ -92,4 +92,4 @@ Masks in this tool are used to define areas or shapes where filters and artifact
     - Description: The Object Mask is used to create a mask around a specific object or area of interest within the image. This mask is typically generated based on the characteristics of the object (such as intensity or shape) and is used to target filters or artifacts to that object specifically, leaving the rest of the image unaffected.
 
 6. Mask
-    - Description: The general Mask class provides the foundational structure for creating custom masks. It can be extended or customized to create specific masking patterns as needed. This class allows for flexibility in defining how and where effects should be applied within the image.
+    - Description: The general Mask class provides the foundational structure for creating custom masks. It can be extended or customized to create specific masking patterns as needed. This class allows for flexibility in defining how and where effects should be applied within the image.# ArtifactX
