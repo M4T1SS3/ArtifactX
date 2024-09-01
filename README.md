@@ -1,4 +1,3 @@
-/**
 # Augmentation Tool
 
 ## Purpose:
