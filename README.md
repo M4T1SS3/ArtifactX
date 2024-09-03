@@ -1,5 +1,19 @@
 # Augmentation Tool
 
+## Example Images:
+Here are a few examples of the artifacts and filters this tool can apply to medical images:
+
+<!-- ### Original Image vs. Metal Artifact
+![Original Image](docs/examples/original_image.png)
+![Metal Artifact](docs/examples/metal_artifact_image.png) -->
+
+### Original Image vs. Motion Artifact
+![Original Image](docs/examples/original_image.png)
+![Motion Artifact](docs/examples/motion_artifact.png)
+
+<!-- ### Original Image vs. Ring Artifact
+![Original Image](docs/examples/original_image.png) ![Ring Artifact](docs/examples/ring_artifact_image.png) -->
+
 ## Purpose:
 The Medical Imaging Artifact Simulation and Augmentation Tool is designed to help researchers, developers, and clinicians simulate various artifacts commonly found in medical imaging. These artifacts, such as noise, motion blur, metal artifacts, beam hardening, and partial volume effects, are critical to study because they can significantly impact the performance of diagnostic tools and machine learning models.
 
