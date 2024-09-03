@@ -3,17 +3,23 @@
 ## Example Images:
 Here are a few examples of the artifacts and filters this tool can apply to medical images:
 
-<!-- ### Original Image vs. Metal Artifact
-<img src="docs/examples/original_image.png" alt="Original Image" width="400" />
-<img src="docs/examples/metal_artifact_image.png" alt="Metal Artifact" width="400" /> -->
+### Original Image vs. Metal Artifact
+<!-- <div style="display: flex; align-items: center;">
+    <img src="docs/examples/original_image.png" alt="Original Image" width="300" />
+    <img src="docs/examples/metal_artifact_image.png" alt="Metal Artifact" width="300" />
+</div> -->
 
 ### Original Image vs. Motion Artifact
-<img src="docs/examples/original_image.png" alt="Original Image" width="400" />
-<img src="docs/examples/motion_artifact.png" alt="Motion Artifact" width="400" />
+<div style="display: flex; align-items: center;">
+    <img src="docs/examples/original_image.png" alt="Original Image" width="300" />
+    <img src="docs/examples/motion_artifact.png" alt="Motion Artifact" width="300" />
+</div>
 
 <!-- ### Original Image vs. Ring Artifact
-<img src="docs/examples/original_image.png" alt="Original Image" width="400" /> 
-<img src="docs/examples/ring_artifact_image.png" alt="Ring Artifact" width="400" /> -->
+<div style="display: flex; align-items: center;">
+    <img src="docs/examples/original_image.png" alt="Original Image" width="300" />
+    <img src="docs/examples/ring_artifact_image.png" alt="Ring Artifact" width="300" />
+</div> -->
 
 ## Purpose:
 The Medical Imaging Artifact Simulation and Augmentation Tool is designed to help researchers, developers, and clinicians simulate various artifacts commonly found in medical imaging. These artifacts, such as noise, motion blur, metal artifacts, beam hardening, and partial volume effects, are critical to study because they can significantly impact the performance of diagnostic tools and machine learning models.
