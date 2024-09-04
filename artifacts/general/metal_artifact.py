@@ -58,7 +58,7 @@ class MetalArtifact(Artifact):
             cv2.circle(image_with_artifacts, (cx, cy), self.object_radius, (255, 255, 255), -1)  # Draw filled circle
 
         # Blend the artifact with the original image
-        alpha = 0.8  # Blending factor for visibility
+        alpha = 0.6  # Blending factor for visibility
         final_image = (alpha * image_with_artifacts + (1 - alpha) * image).astype(np.uint8)
 
         return final_image
